@@ -1,0 +1,86 @@
+.image{
+    width: 96rem;
+    height: 46.6rem;
+  
+     margin-left: -0.5rem;
+     margin-top: -0.5rem;
+ }
+ .admin-btn{
+     width: 10.5rem;
+     height: 2rem;
+     font-size: 1.2rem;
+     cursor: pointer;
+     /* background-color: rgb(248, 251, 198); */
+ 
+    
+    
+     
+ }
+ .user-btn{
+     width: 10.5rem;
+     height: 2rem;
+     font-size: 1.2rem;
+     cursor: pointer;
+     /* background-color: rgb(248, 251, 198); */
+   
+ }
+ 
+ .email{
+     font-size: 1.5rem;
+     margin-left: -15.5rem;
+     
+ }
+ .email-input{
+    width: 19.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem
+ }
+ .pass{
+     font-size: 1.5rem;
+     margin-left: -13.5rem;
+     
+ }
+ .pass-input{
+    width: 19.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem
+ }
+ input{
+     background: none;
+  
+ }
+ 
+ .submit{
+     width: 20rem;
+     height: 2rem;
+     cursor: pointer;
+     background-color: rgb(32, 130, 199);
+     color: white;
+     font-size: 1.2rem;
+     border-color: white;
+     border-radius: 20px;
+ }
+ .container{
+     margin-left: 35rem;
+     margin-right: 10rem;
+     background: transparent;
+
+     
+  }
+  .admin {
+     position: relative;
+   }
+   
+   .user {
+     position: relative;
+     display: none;
+   }
+   
+   .admin:hover .user {
+     display: inline;
+   }
+   
+   .show{
+     display: block;
+     
+   }
